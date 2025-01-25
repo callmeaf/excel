@@ -1,0 +1,22 @@
+{
+    "name": "callmeaf/excel",
+    "description": "Manage export and import excel of entire project",
+    "type": "library",
+    "require": {
+        "callmeaf/base": "dev-master",
+        "maatwebsite/excel": "3.1.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Callmeaf\\Excel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alikhoshkar",
+            "email": "alikhoshkar2000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
