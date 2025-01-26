@@ -8,7 +8,13 @@
         <th>{{__('callmeaf-excel::v1.exports.users.national_code')}}</th>
         <th>{{__('callmeaf-excel::v1.exports.users.first_name')}}</th>
         <th>{{__('callmeaf-excel::v1.exports.users.last_name')}}</th>
-        <th>{{__('callmeaf-excel::v1.exports.users.created_at')}}</th>
+        <th>
+            @if(isOnlyTrashedQueryParam())
+                {{__('callmeaf-excel::v1.exports.users.deleted_at')}}
+            @else
+                {{__('callmeaf-excel::v1.exports.users.created_at')}}
+            @endif
+        </th>
     </tr>
     </thead>
     <tbody>
@@ -21,7 +27,13 @@
             <td>{{ $user->national_code }}</td>
             <td>{{ $user->first_name }}</td>
             <td>{{ $user->last_name }}</td>
-            <td>{{ $user->createdAtText }}</td>
+            <td>
+                @if(isOnlyTrashedQueryParam())
+                    {{ $user->deletedAtText }}
+                @else
+                    {{ $user->createdAtText }}
+                @endif
+            </td>
         </tr>
     @endforeach
     </tbody>

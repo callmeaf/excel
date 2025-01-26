@@ -15,6 +15,7 @@ return [
             'first_name' => 'نام',
             'last_name' => 'نام خانوادگی',
             'created_at' => 'تاریخ ایجاد',
+            'deleted_at' => 'تاریخ حذف'
         ],
     ],
 ];

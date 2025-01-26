@@ -2,6 +2,7 @@
 
 namespace Callmeaf\Excel\Exports;
 
+use Callmeaf\User\Models\User;
 use Callmeaf\User\Services\V1\UserService;
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Contracts\View\View;
