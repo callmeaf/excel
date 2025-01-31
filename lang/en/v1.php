@@ -17,5 +17,11 @@ return [
             'created_at' => 'Created at',
             'deleted_at' => 'Deleted at'
         ],
+        'roles' => [
+            'id' => '#',
+            'name' => 'English Name',
+            'name_fa' => 'Persian Name',
+            'created_at' => 'Created at',
+        ],
     ],
 ];

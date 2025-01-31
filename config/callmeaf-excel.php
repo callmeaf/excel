@@ -5,6 +5,7 @@ return [
     'service' => \Callmeaf\Excel\Services\V1\ExcelService::class,
     'exports' => [
         'users' => \Callmeaf\Excel\Exports\UsersExport::class,
+        'roles' => \Callmeaf\Excel\Exports\RolesExport::class,
     ],
     'events' => [
         \Callmeaf\Excel\Events\ExcelExported::class => [
