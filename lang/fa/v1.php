@@ -23,5 +23,17 @@ return [
             'name_fa' => 'نام فارسی',
             'created_at' => 'تاریخ ایجاد',
         ],
+        'product_categories' => [
+            'id' => '#',
+            'parent' => 'دسته بندی مادر',
+            'status' => 'وضعیت',
+            'type' => 'نوع',
+            'title' => 'عنوان',
+            'slug' => 'اسلاگ',
+            'summary' => 'خلاصه محتوا',
+            'content' => 'محتوا',
+            'created_at' => 'تاریخ ایجاد',
+            'deleted_at' => 'تاریخ حذف'
+        ],
     ],
 ];

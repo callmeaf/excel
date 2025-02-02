@@ -6,6 +6,7 @@ return [
     'exports' => [
         'users' => \Callmeaf\Excel\Exports\UsersExport::class,
         'roles' => \Callmeaf\Excel\Exports\RolesExport::class,
+        'product_categories' => \Callmeaf\Excel\Exports\ProductCategoriesExport::class
     ],
     'events' => [
         \Callmeaf\Excel\Events\ExcelExported::class => [

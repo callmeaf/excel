@@ -23,5 +23,17 @@ return [
             'name_fa' => 'Persian Name',
             'created_at' => 'Created at',
         ],
+        'product_categories' => [
+            'id' => '#',
+            'parent' => 'Parent',
+            'status' => 'Status',
+            'type' => 'Type',
+            'title' => 'Title',
+            'slug' => 'Slug',
+            'summary' => 'Summary',
+            'content' => 'Content',
+            'created_at' => 'Created at',
+            'deleted_at' => 'Deleted at'
+        ],
     ],
 ];
